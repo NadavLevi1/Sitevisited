@@ -1,0 +1,117 @@
+
+<html>
+<head>
+<title> Nadav Levi </title>
+<style>
+    .flex-container {
+      display: flex;
+      background-color: rgb(161, 228, 255);
+      justify-content: center
+    }
+    
+    .flex-container > div {
+      background-color: #f1f1f1;
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
+    }
+
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.mycormap{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px
+}
+
+.header{
+    background-color: rgb(126, 219, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 5.5em;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-style: italic;
+}
+.footer{
+    font-size: 1.1rem;
+    box-sizing: inherit;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+#author{
+    text-decoration: none;
+    font-style: italic;
+    padding-left: 3px;
+}
+.btnRoma,.btnFrance,.btnGreece, .btnIsrael, .btnAustria {
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #8fb4f8;
+    margin-left: 60px
+}
+
+
+
+
+
+  </style>
+
+<div class="header">
+    The five most beautiful sites I have visited
+  </div>
+
+  
+ 
+</head>
+<body background="white" text="black" link = "red" vlink = "black">
+
+    <div class="flex-container">
+      <a href="Colosseum, Roma.html" target="myiframe" class= "btnRoma"> Colosseum, Roma </a>
+      <a href="Eiffel Tower, France.html" target="myiframe" class= "btnFrance"> Eiffel Tower, France </a>
+      <a href="Santorini, Greece.html" target="myiframe" class= "btnGreece"> Santorini, Greece </a>
+      <a href="Baha'i Garden, Israel.html" target="myiframe" class= "btnIsrael"> Baha'i Garden, Israel </a>
+      <a href="St. Wolfgang, Austria.html" target="myiframe" class= "btnAustria"> St. Wolfgang, Austria </a>
+
+      </div>
+
+     
+
+         <img src="mymap.png" usemap="#image_map" class="mycormap">
+         <map name="image_map">
+           <area alt="France" title="France" href="Eiffel Tower, France.html" coords="177,165,233,195" shape="rect">
+           <area alt="Austria" title="Austria" href="St. Wolfgang, Austria.html" coords="337,137,394,172" shape="rect">
+           <area alt="Roma" title="Roma" href="Colosseum, Roma.html" coords="362,280,418,311" shape="rect">
+           <area alt="Greece" title="Greece" href="Santorini, Greece.html" coords="476,317,530,345" shape="rect">
+           <area alt="Israel" title="Israel" href="Baha'i Garden, Israel.html" coords="662,455,714,490" shape="rect">
+         </map>
+
+
+
+<div class= "footer">
+<span>Created by: &nbsp;</span>
+<span id="author">Nadav Levi</span>
+</div>
+
+</body>
+<html>
+
+
+
+
